@@ -1,5 +1,9 @@
 {{ attach_library('module_template/test') }}
+{% set data = {'title':'title', 'template': 1} %}
 <div class="well">
+    <div class="col-xs-12">
+        <label>{{ data.template }}</label>
+    </div>
     <div class="a1-container">
         {{ a11 }}
     </div>
