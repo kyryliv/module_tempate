@@ -1,9 +1,9 @@
-name: 'funds test'
+name: 'module template'
 type: module
-description: 'Тестування блоки'
+description: 'Шаблон модуля'
 # core: 8.x
 package: Assest Management
-version: '8.x-0.2'
+version: '9.x-0.1'
 project: 'funds'
 
 core: 8.x

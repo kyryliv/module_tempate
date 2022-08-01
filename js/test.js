@@ -1,8 +1,8 @@
 (function ($, Drupal) {
-    Drupal.behaviors.funds_testBehavior = {
+    Drupal.behaviors.module_templateBehavior = {
         attach: function () {
             try {
-                console.log('Hello funds_test');
+                console.log('Hello module_template');
             } catch (e) {
                 console.log('catch :' + e);
             }

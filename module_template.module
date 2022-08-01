@@ -8,13 +8,13 @@
 /**
  * Implements hook_help().
  */
-function funds_test_help($route_name) {
+function module_template_help($route_name) {
     $output = '';
     switch ($route_name) {
         // Main module help for the fund module.
         case 'help.page.fund':
             $output .= '<h3>' . t('About') . '</h3>';
-            $output .= '<p>' . t('A simple example on how to interact with the Charts API') . '</p>';
+            $output .= '<p>' . t('A simple example on how to interact') . '</p>';
             break;
     }
     return $output;
@@ -23,7 +23,7 @@ function funds_test_help($route_name) {
 /**
  * Implements hook_theme().
  */
-function funds_test_theme() {
+function module_template_theme() {
     return [
         'a1' => [
             'variables' => [

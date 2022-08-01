@@ -1,10 +1,10 @@
 <?php
 
-namespace Drupal\funds_test\Controller;
+namespace Drupal\module_template\Controller;
 
 use Drupal\Core\Controller\ControllerBase;
 
-class FundsTestController extends ControllerBase {
+class ModuleTemplateController extends ControllerBase {
 
     /**
      * 

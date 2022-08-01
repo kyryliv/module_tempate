@@ -1,7 +1,7 @@
 test:
   version: 1.x
   js:
-    js/test.js: {}
+    js/script.js: {}
   css:
     theme:
-      css/test.css: {}
+      css/style.css: {}

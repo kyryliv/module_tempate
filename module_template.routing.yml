@@ -1,7 +1,7 @@
-funds_test.test:
+module_template.test:
   path: '/funds/test/{theme}'
   defaults:
-    _controller: '\Drupal\funds_test\Controller\FundsTestController::content'
+    _controller: '\Drupal\module_template\Controller\ModuleTemplateController::content'
     _title: 'Test'
     theme: a1
   options:
