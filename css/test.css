@@ -1,0 +1,15 @@
+.a1-container {
+  display: block;
+}
+.a1-container strong {
+  color: yellow;
+  background-color: #696a6b;
+  padding: 5px 5px;
+}
+
+.a2-container {
+  display: block;
+  background-color: #2c5979;
+}
+
+/*# sourceMappingURL=test.css.map */

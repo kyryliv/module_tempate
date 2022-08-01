@@ -1,0 +1,20 @@
+$kinto-color-red: #c60b33;
+$kinto-color-red2: #700033;
+$kinto-color-red3: #990033;
+
+$kinto-color-blue: #254c64;
+$kinto-color-blue2: #3a749e;
+$kinto-color-blue3: #2c587b;
+
+$kinto-color-bg:  linear-gradient($kinto-color-blue2, $kinto-color-blue2) no-repeat; //darken($kinto-color-blue2, 10%) !default;
+$kinto-color-bg2: rgb(164,185,206) !default;
+$kinto-color-bg3: linear-gradient($kinto-color-bg2, white) no-repeat;
+$kinto-color-bg4: linear-gradient(#7a7f82, #676767) no-repeat;
+$kinto-color-bg5: linear-gradient($kinto-color-blue, $kinto-color-bg) no-repeat;
+$kinto-color-bg6: rgb(242, 242, 242);
+$kinto-color-bg7:  darken($kinto-color-blue2, 10%) !default;
+
+$kinto-color-grey1: rgb(105, 106, 107);
+$kinto-color-grey2: #999999;
+$kinto-color-grey3: #EFEFEF;
+$kinto-color-grey4: #edf1f5;

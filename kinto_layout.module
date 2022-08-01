@@ -1,0 +1,48 @@
+<?php
+
+/**
+ * @file
+ * Fund Test - Module.
+ */
+
+/**
+ * Implements hook_help().
+ */
+function funds_test_help($route_name) {
+    $output = '';
+    switch ($route_name) {
+        // Main module help for the fund module.
+        case 'help.page.fund':
+            $output .= '<h3>' . t('About') . '</h3>';
+            $output .= '<p>' . t('A simple example on how to interact with the Charts API') . '</p>';
+            break;
+    }
+    return $output;
+}
+
+/**
+ * Implements hook_theme().
+ */
+function funds_test_theme() {
+    return [
+        'a1' => [
+            'variables' => [
+                'a11' => '',
+            ],
+        ],
+        'a11' => [
+            'variables' => [
+                'a111' => '',
+                'a112' => '',
+            ],
+        ],
+        'a111' => [
+            'variables' => [
+            ],
+        ],
+        'a112' => [
+            'variables' => [
+            ],
+        ],
+    ];
+}

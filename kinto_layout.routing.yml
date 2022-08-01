@@ -1,0 +1,12 @@
+funds_test.test:
+  path: '/funds/test/{theme}'
+  defaults:
+    _controller: '\Drupal\funds_test\Controller\FundsTestController::content'
+    _title: 'Test'
+    theme: a1
+  options:
+    parameters:
+      theme:
+        type: string    
+  requirements:
+    _permission: 'access content'
