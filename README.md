@@ -14,14 +14,14 @@ Drupal ^9
 
 module_template.info - загальна інформація про модуль 
 
-модуль налаштований на відображення довільного шаблону (див. \templates)
+модуль налаштований на відображення довільного шаблону [див. templates](###templates)
 
 module_template.routing - link для відображення шаблону 
 наприклад: 
 https://kinto.com/funds/test/a1
 
-
 module_template.module - перелік шаблонів
+
 module_template.libraries - опис кастомних бібліотек, що можуть бути підлючені в шаблон
 
 ### css
