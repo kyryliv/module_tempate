@@ -4,7 +4,7 @@
 
 ## REQUIREMENTS
 
-Drupal ^9 [https://www.drupal.org/docs/creating-modules]
+Drupal ^9 (https://www.drupal.org/docs/creating-modules)
 
 ### Алгоритм :
 1. Клонувати цей модууль
