@@ -2,15 +2,15 @@
 
 Модуль створений для організації розробки сайту
 
+## REQUIREMENTS
+
+Drupal ^9 [https://www.drupal.org/docs/creating-modules]
+
 ### Алгоритм :
-1. Клонувати цей шаблон
+1. Клонувати цей модууль
 2. Виконати роботи по верстанню дизайна
 картинки знаходяться в  [див. img](#img)
 3. Результат роботи повинен бути [див. scss](#scss)
-
-## REQUIREMENTS
-
-Drupal ^9
 
 ## Folders description
 
