@@ -11,7 +11,9 @@ Drupal ^9 (https://www.drupal.org/docs/creating-modules)
 2. Виконати роботи по верстанню дизайна
 картинки знаходяться в  [див. img](#img)
 3. Результат роботи повинен бути:
+
   a) div-вертска в [templates](#templates)
+
   b) стилі в [scss](#scss)
 
 ## Folders description
